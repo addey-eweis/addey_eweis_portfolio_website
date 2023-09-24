@@ -1,0 +1,17 @@
+.main{
+  background: radial-gradient(circle, rgb(52, 37, 94), rgb(23, 30, 98), rgb(55, 0, 106));
+  background-size: 200% 400%;
+  animation: gradient 15s ease infinite;
+
+}
+@keyframes gradient {
+  0% {
+    background-position: 0 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0 50%;
+  }
+}

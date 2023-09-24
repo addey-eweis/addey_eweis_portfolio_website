@@ -1,0 +1,52 @@
+.fixedInfo{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  margin: 3rem 0.8rem;
+  font-family: "Open Sans", sans-serif;
+
+  .infoWritten{
+      padding: 0 .5rem;
+    .name{
+      font-size: 2.2rem;
+      font-weight: 700;
+    }
+    .occupation{
+      font-weight: 300;
+      margin-top: 0.2rem;
+    }
+    .bioSnippet{
+      font-weight: 300;
+      font-size: 1rem;
+    }
+  }
+  .socialIconContainer{
+      display: flex;
+      flex-direction: row;
+      margin: 1rem -.5rem;
+    .socialIcon{
+      opacity: .5;
+      &:hover{
+        transition: .05s;
+        opacity: 1;
+      }
+    }
+  }
+  .bioContainer{
+      margin-top: 4rem;
+      padding: 0 .5rem;
+    .bioTitle{
+      font-weight: 600;
+      //
+    }
+    .bio{
+      //
+    }
+  }
+}
+
+.rollingInfo{
+  //
+}
+
+
