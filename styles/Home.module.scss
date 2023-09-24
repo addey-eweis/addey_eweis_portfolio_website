@@ -1,7 +1,8 @@
 .main{
-  background: radial-gradient(circle, rgb(52, 37, 94), rgb(23, 30, 98), rgb(55, 0, 106));
+  background: radial-gradient(circle, rgb(52, 37, 94), rgb(23, 30, 98));
   background-size: 200% 400%;
-  animation: gradient 15s ease infinite;
+  animation: gradient 10s ease infinite;
+  padding: 0 1.3rem;
 
 }
 @keyframes gradient {

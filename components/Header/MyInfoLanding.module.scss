@@ -1,11 +1,10 @@
 .fixedInfo{
   display: flex;
   flex-direction: column;
-  margin: 4rem 0.8rem;
+  margin: 4rem 0;
   font-family: "Open Sans", sans-serif;
 
   .infoWritten{
-      padding: 0 .5rem;
     .name{
       font-size: 2.2rem;
       font-weight: 700;
@@ -34,9 +33,8 @@
   .bioContainer{
       height: max-content;
       margin-top: 4rem;
-      padding: 0 .5rem;
     .bioTitle{
-      font-weight: 600;
+      font-weight: 500;
       //
     }
     .bio{
@@ -47,6 +45,8 @@
       padding: .3rem .6rem;
       border-radius: 2rem;
       font-weight: bold;
+      border: none;
+
     }
   }
 }
