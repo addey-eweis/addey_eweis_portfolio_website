@@ -1,0 +1,57 @@
+.fixedInfo{
+  display: flex;
+  flex-direction: column;
+  margin: 4rem 0;
+  font-family: "Open Sans", sans-serif;
+
+  .infoWritten{
+    .name{
+      font-size: 2.2rem;
+      font-weight: 700;
+    }
+    .occupation{
+      font-weight: 300;
+      margin-top: 0.2rem;
+    }
+    .bioSnippet{
+      font-weight: 300;
+      font-size: 1rem;
+    }
+  }
+  .socialIconContainer{
+      display: flex;
+      flex-direction: row;
+      margin: 1rem -.5rem;
+    .socialIcon{
+      opacity: .5;
+      &:hover{
+        transition: .05s;
+        opacity: 1;
+      }
+    }
+  }
+  .bioContainer{
+      height: max-content;
+      margin-top: 4rem;
+    .bioTitle{
+      //
+    }
+    .bio{
+    }
+    .readMoreButton{
+      background-color: #cbc3ff;
+      margin-top: 1rem;
+      padding: .3rem .6rem;
+      border-radius: 2rem;
+      font-weight: bold;
+      border: none;
+
+    }
+  }
+}
+
+.rollingInfo{
+  //
+}
+
+

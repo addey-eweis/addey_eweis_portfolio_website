@@ -1,8 +1,9 @@
 .main{
-  background: radial-gradient(circle, rgb(52, 37, 94), rgb(23, 30, 98));
-  background-size: 200% 400%;
-  animation: gradient 10s ease infinite;
-  padding: 0 1.3rem;
+  background: linear-gradient(-45deg, rgb(98, 23, 57), rgb(28, 38, 141), rgb(172, 84, 255));
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+  padding: 0 1.5rem;
+  height: 100%;
 
 }
 @keyframes gradient {

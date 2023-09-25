@@ -1,7 +1,7 @@
 import styles from "./HomePage.module.scss"
 import React from 'react';
-import MyInfoLanding from "@/components/Header/MyInfoLanding";
-import NonFixedInfo from "@/components/Header/NonFixedInfo";
+import MyInfoLanding from "@/components/Landing/MyInfoLanding";
+import NonFixedInfo from "@/components/Landing/NonFixedInfo";
 
 export default function HomePage(){
     return(

@@ -1,0 +1,44 @@
+
+.experienceContainer{
+  height: max-content;
+  margin-bottom: 5rem;
+  .jobDate{
+    color: #cbc3ff;
+    font-size: .9rem;
+    font-weight: 400;
+  }
+  .companyName{
+    font-size: 1.1rem;
+    margin: .1rem 0;
+  }
+  .jobTitle{
+    color: #9390ADFF;
+    font-size: 1rem;
+  }
+  .jobDescription{
+
+  }
+  .skillTagContainer{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: 1fr;
+    column-gap: .5rem;
+    row-gap: .5rem;
+    margin-top: 1rem;
+    .skillTag{
+      background-color: #152b3b;
+      //opacity: .8;
+      border-radius: 2rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 2rem;
+      .skillTagName{
+        font-weight: 200;
+        font-size: .8rem;
+        color: #cbc3ff;
+      }
+    }
+  }
+
+}

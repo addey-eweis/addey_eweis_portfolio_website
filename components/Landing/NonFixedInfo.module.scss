@@ -1,0 +1,12 @@
+.nonFixedInfoContainer{
+  display: flex;
+  flex-direction: column;
+  font-family: "Open Sans", sans-serif;
+  .experienceTitle{
+    //font-weight: 500;
+    margin-bottom: 2rem;
+  }
+  .viewResume{
+    margin-top: -2rem;
+  }
+}
