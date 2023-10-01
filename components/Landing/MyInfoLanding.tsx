@@ -38,9 +38,11 @@ export default function MyInfoLanding(){
                 </div>
                 <div className={styles.bioContainer}>
                     <h1 className={styles.bioTitle}>ABOUT</h1>
-                    <p className={styles.bio}>
-                        Since my early days, computers have always had a special place in my heart. Building my first calculator app at the young age of 8, and my personal website at 11. It has given me a glimpse into what would be my future. Now as I look back on my early tinkering years, I have made multiple mobile apps, websites, video games with hands-on experience with multiple languages and frameworks like JavaScript (React JS, Next.js, Node.js, more…), Python (Django), C++, C#, HTML, CSS, SCSS, Bootstrap
-                        { showMore ? <ReadMore/>:<span>...</span>}</p>
+                    <div className={styles.bioTextContainer}>
+                        <p className={styles.bio}>
+                            Since my early days, computers have always had a special place in my heart. Building my first calculator app at the young age of 8, and my personal website at 11. It has given me a glimpse into what would be my future. Now as I look back on my early tinkering years, I have made multiple mobile apps, websites, video games with hands-on experience with multiple languages and frameworks like JavaScript (React JS, Next.js, Node.js, more…), Python (Django), C++, C#, HTML, CSS, SCSS, Bootstrap
+                            { showMore ? <ReadMore/>:<span>...</span>}</p>
+                    </div>
                     <button onClick={onClick} className={styles.readMoreButton}>{ showMore ? "Read Less" : "Read More"}</button>
                 </div>
             </section>

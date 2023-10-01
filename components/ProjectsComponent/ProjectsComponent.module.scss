@@ -1,13 +1,26 @@
 .projectsContainer{
+  margin-top: 2rem;
   .projectContainer{
-    .projectName{
+    margin-bottom: 3rem;
 
+    .projectName{
+      font-weight: 500;
     }
     .projectDescription{
 
     }
     .projectImage{
-
+      //margin-bottom: 1rem;
+      margin-top: 1rem;
+      width: 100%;
     }
+    .achievementText{
+      //margin-top: 1rem;
+      font-size: 1rem;
+      font-weight: 500;
+    }
+  }
+  .fullProjectLink{
+    margin-top: 3rem;
   }
 }

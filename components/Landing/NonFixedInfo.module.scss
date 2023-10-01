@@ -1,5 +1,6 @@
 .nonFixedInfoContainer{
   display: flex;
+  position: sticky;
   flex-direction: column;
   font-family: "Open Sans", sans-serif;
   .experienceTitle{
@@ -8,5 +9,12 @@
   }
   .viewResume{
     margin-top: -2rem;
+  }
+  .projectsTitle{
+    margin-top: 10rem;
+    top: 0;
+  }
+  .fullProjectLink{
+    margin-top: 2rem;
   }
 }

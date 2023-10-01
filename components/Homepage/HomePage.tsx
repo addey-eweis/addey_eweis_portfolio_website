@@ -7,8 +7,12 @@ export default function HomePage(){
     return(
         <>
             <section className={styles.main}>
-                <MyInfoLanding/>
-                <NonFixedInfo/>
+                <div className={styles.fixedInfo}>
+                    <MyInfoLanding/>
+                </div>
+                <div className={styles.nonFixedInfo}>
+                    <NonFixedInfo/>
+                </div>
             </section>
         </>
     )
