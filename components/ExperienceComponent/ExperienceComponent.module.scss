@@ -3,17 +3,21 @@
   height: max-content;
   margin-bottom: 5rem;
   .jobDate{
-    color: #cbc3ff;
+    color: rgba(203, 195, 255, 0.81);
     font-size: .9rem;
     font-weight: 400;
   }
   .companyName{
     font-size: 1.1rem;
     margin: .1rem 0;
+    span{
+      font-weight: 600;
+      //font-style: italic;
+    }
   }
   .jobTitle{
-    color: #9390ADFF;
-    font-size: 1rem;
+    color: rgba(203, 195, 255, 0.81);
+    font-weight: 500;
   }
   .jobDescription{
 
@@ -33,9 +37,12 @@
       justify-content: center;
       align-items: center;
       height: 2rem;
+      overflow: clip;
+      white-space: nowrap;
       .skillTagName{
         font-weight: 200;
         font-size: .8rem;
+        text-overflow: ellipsis;
         color: #cbc3ff;
       }
     }
