@@ -42,8 +42,8 @@
       //
     }
     .bioTextContainer{
-      height: 20vh;
       @media screen and (min-width: 1024px){
+        height: 20vh;
         overflow-x: scroll;
       }
         .bio{
