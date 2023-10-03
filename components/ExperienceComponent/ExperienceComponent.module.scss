@@ -44,7 +44,14 @@
         font-size: .8rem;
         text-overflow: ellipsis;
         color: #cbc3ff;
+
       }
+    }
+    @media screen and (max-width: 1200px){
+      grid-template-columns: repeat(3, 1fr);
+    }
+    @media screen and (max-width: 800px){
+      grid-template-columns: repeat(2, 1fr);
     }
   }
 
